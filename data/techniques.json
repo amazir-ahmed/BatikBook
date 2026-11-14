@@ -1,0 +1,7 @@
+[
+{"id":1,"name":"Batik","description":"A wax-resist dyeing method where wax is drawn on cloth before dyeing.","process":"Draw wax design, dye, remove wax, repeat for more colours."},
+{"id":2,"name":"Handloom","description":"Cloth woven by hand on a wooden loom, common in village industries.","process":"Prepare warp threads, weave weft by hand, finish and wash."},
+{"id":3,"name":"Ikat","description":"Threads are tie-dyed before weaving so the pattern appears as the cloth is woven.","process":"Tie and dye yarn, set on loom, weave to reveal the design."},
+{"id":4,"name":"Block Print","description":"Carved wooden blocks stamp repeating motifs onto fabric.","process":"Carve block, apply dye, stamp cloth, fix colour."},
+{"id":5,"name":"Hand Embroidery","description":"Decorative stitching added to woven cloth with needle and thread.","process":"Mark design, stitch with cotton or silk thread, press."}
+]

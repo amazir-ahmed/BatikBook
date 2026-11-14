@@ -1,0 +1,451 @@
+[
+ {
+  "id": 1,
+  "name": "Peacock Batik",
+  "region": "Kandy",
+  "technique": "Batik",
+  "colors": [
+   "Blue",
+   "Green",
+   "Gold"
+  ],
+  "description": "A batik design built around the fanned peacock tail.",
+  "history": "Became popular in Kandyan workshops in the 1950s and 60s.",
+  "uses": [
+   "Sarees",
+   "Wall hangings"
+  ],
+  "careTips": "Hand wash in cold water and dry in shade."
+ },
+ {
+  "id": 2,
+  "name": "Lotus Bloom",
+  "region": "Kandy",
+  "technique": "Batik",
+  "colors": [
+   "Pink",
+   "Green",
+   "White"
+  ],
+  "description": "Layered lotus petals in soft gradients.",
+  "history": "Lotus motifs come from Buddhist art across the island.",
+  "uses": [
+   "Scarves",
+   "Cushion covers"
+  ],
+  "careTips": "Wash separately; avoid bleach."
+ },
+ {
+  "id": 3,
+  "name": "Kandyan Crown",
+  "region": "Kandy",
+  "technique": "Hand Embroidery",
+  "colors": [
+   "Maroon",
+   "Gold"
+  ],
+  "description": "Gold thread work inspired by Kandyan court dress.",
+  "history": "Derived from royal costume of the Kandyan kingdom.",
+  "uses": [
+   "Ceremonial sarees",
+   "Shawls"
+  ],
+  "careTips": "Dry clean only to protect the thread."
+ },
+ {
+  "id": 4,
+  "name": "Elephant Parade",
+  "region": "Colombo",
+  "technique": "Batik",
+  "colors": [
+   "Black",
+   "Orange",
+   "Brown"
+  ],
+  "description": "A procession of elephants in bold wax lines.",
+  "history": "Inspired by Perahera processions.",
+  "uses": [
+   "Shirts",
+   "Table runners"
+  ],
+  "careTips": "Wash inside out in cold water."
+ },
+ {
+  "id": 5,
+  "name": "Sunrise Stripe",
+  "region": "Galle",
+  "technique": "Handloom",
+  "colors": [
+   "Orange",
+   "Yellow",
+   "Red"
+  ],
+  "description": "Warm horizontal bands that fade like a coastal sunrise.",
+  "history": "Woven by coastal families for everyday sarongs.",
+  "uses": [
+   "Sarongs",
+   "Towels"
+  ],
+  "careTips": "Machine wash gentle; iron on medium heat."
+ },
+ {
+  "id": 6,
+  "name": "Ocean Weave",
+  "region": "Galle",
+  "technique": "Handloom",
+  "colors": [
+   "Blue",
+   "White",
+   "Indigo"
+  ],
+  "description": "Wave-like checks in blues and whites.",
+  "history": "Linked to the fishing communities of the south coast.",
+  "uses": [
+   "Shirts",
+   "Curtains"
+  ],
+  "careTips": "Wash with similar colours."
+ },
+ {
+  "id": 7,
+  "name": "Cinnamon Check",
+  "region": "Matara",
+  "technique": "Handloom",
+  "colors": [
+   "Brown",
+   "Yellow",
+   "Black"
+  ],
+  "description": "Earthy checks named after cinnamon bark.",
+  "history": "Created by Matara weavers in the mid 20th century.",
+  "uses": [
+   "Sarongs",
+   "Bags"
+  ],
+  "careTips": "Hand wash; line dry."
+ },
+ {
+  "id": 8,
+  "name": "Tea Leaf Print",
+  "region": "Nuwara Eliya",
+  "technique": "Block Print",
+  "colors": [
+   "Green",
+   "Yellow",
+   "White"
+  ],
+  "description": "Repeating tea leaf blocks across the cloth.",
+  "history": "Reflects the hill country tea estates.",
+  "uses": [
+   "Napkins",
+   "Aprons"
+  ],
+  "careTips": "Wash cold; do not tumble dry."
+ },
+ {
+  "id": 9,
+  "name": "Mist Ikat",
+  "region": "Nuwara Eliya",
+  "technique": "Ikat",
+  "colors": [
+   "Indigo",
+   "White",
+   "Purple"
+  ],
+  "description": "Blurred edges give a misty hill look.",
+  "history": "Adapted from ikat traditions brought by trade.",
+  "uses": [
+   "Scarves",
+   "Wall panels"
+  ],
+  "careTips": "Hand wash only."
+ },
+ {
+  "id": 10,
+  "name": "Jaffna Diamond",
+  "region": "Jaffna",
+  "technique": "Handloom",
+  "colors": [
+   "Red",
+   "Black",
+   "Gold"
+  ],
+  "description": "Diamond lattice in rich reds.",
+  "history": "Traditional cotton weaving of the northern peninsula.",
+  "uses": [
+   "Sarees",
+   "Bedspreads"
+  ],
+  "careTips": "Wash separately; iron inside out."
+ },
+ {
+  "id": 11,
+  "name": "Palmyra Motif",
+  "region": "Jaffna",
+  "technique": "Block Print",
+  "colors": [
+   "Brown",
+   "Green",
+   "Yellow"
+  ],
+  "description": "Palmyra palm shapes stamped in rows.",
+  "history": "The palmyra is the symbol tree of Jaffna.",
+  "uses": [
+   "Tote bags",
+   "Cushions"
+  ],
+  "careTips": "Spot clean or gentle wash."
+ },
+ {
+  "id": 12,
+  "name": "Lagoon Dye",
+  "region": "Batticaloa",
+  "technique": "Ikat",
+  "colors": [
+   "Blue",
+   "Green",
+   "Indigo"
+  ],
+  "description": "Wavy tie-dyed threads suggest lagoon water.",
+  "history": "Made by eastern coast weavers in small cooperatives.",
+  "uses": [
+   "Sarongs",
+   "Throws"
+  ],
+  "careTips": "Wash cold with mild soap."
+ },
+ {
+  "id": 13,
+  "name": "Monsoon Rain",
+  "region": "Batticaloa",
+  "technique": "Batik",
+  "colors": [
+   "Indigo",
+   "Blue",
+   "Black"
+  ],
+  "description": "Streaked wax lines for falling rain.",
+  "history": "A modern design popular since the 1990s.",
+  "uses": [
+   "Shirts",
+   "Scarves"
+  ],
+  "careTips": "Wash inside out; dry flat."
+ },
+ {
+  "id": 14,
+  "name": "Sigiriya Frescoe",
+  "region": "Matale",
+  "technique": "Hand Embroidery",
+  "colors": [
+   "Maroon",
+   "Gold",
+   "Brown"
+  ],
+  "description": "Stitched figures inspired by the Sigiriya paintings.",
+  "history": "Created for the heritage souvenir trade.",
+  "uses": [
+   "Wall hangings",
+   "Bags"
+  ],
+  "careTips": "Dry clean recommended."
+ },
+ {
+  "id": 15,
+  "name": "Spice Garden",
+  "region": "Matale",
+  "technique": "Block Print",
+  "colors": [
+   "Red",
+   "Orange",
+   "Green"
+  ],
+  "description": "Clove, chilli and pepper shapes in repeat.",
+  "history": "Reflects Matale's spice growing region.",
+  "uses": [
+   "Aprons",
+   "Tablecloths"
+  ],
+  "careTips": "Machine wash cold."
+ },
+ {
+  "id": 16,
+  "name": "Anuradhapura Scroll",
+  "region": "Anuradhapura",
+  "technique": "Hand Embroidery",
+  "colors": [
+   "White",
+   "Gold",
+   "Maroon"
+  ],
+  "description": "Scrollwork borders from moonstone carvings.",
+  "history": "Based on ancient moonstone steps.",
+  "uses": [
+   "Sarees",
+   "Altar cloths"
+  ],
+  "careTips": "Dry clean only."
+ },
+ {
+  "id": 17,
+  "name": "Dry Zone Loom",
+  "region": "Anuradhapura",
+  "technique": "Handloom",
+  "colors": [
+   "Brown",
+   "Orange",
+   "White"
+  ],
+  "description": "Sturdy cotton in dry earth colours.",
+  "history": "Village looms supplied local farmers for generations.",
+  "uses": [
+   "Sarongs",
+   "Bags"
+  ],
+  "careTips": "Wash warm; dry in sun."
+ },
+ {
+  "id": 18,
+  "name": "Moonstone Dot",
+  "region": "Kurunegala",
+  "technique": "Batik",
+  "colors": [
+   "Black",
+   "White",
+   "Gold"
+  ],
+  "description": "Concentric dots echo a moonstone.",
+  "history": "Developed by a Kurunegala batik cooperative.",
+  "uses": [
+   "Scarves",
+   "Dresses"
+  ],
+  "careTips": "Hand wash cold."
+ },
+ {
+  "id": 19,
+  "name": "Coconut Palm",
+  "region": "Kurunegala",
+  "technique": "Block Print",
+  "colors": [
+   "Green",
+   "Brown",
+   "White"
+  ],
+  "description": "Coconut fronds in a tight repeat.",
+  "history": "Coconut is central to the region's economy.",
+  "uses": [
+   "Napkins",
+   "Curtains"
+  ],
+  "careTips": "Machine wash cold."
+ },
+ {
+  "id": 20,
+  "name": "Gem Pit",
+  "region": "Ratnapura",
+  "technique": "Ikat",
+  "colors": [
+   "Purple",
+   "Red",
+   "Blue"
+  ],
+  "description": "Jewel-toned diamonds referencing gem mining.",
+  "history": "Inspired by Ratnapura's gem industry.",
+  "uses": [
+   "Shawls",
+   "Cushions"
+  ],
+  "careTips": "Hand wash separately."
+ },
+ {
+  "id": 21,
+  "name": "Rainforest Canopy",
+  "region": "Ratnapura",
+  "technique": "Batik",
+  "colors": [
+   "Green",
+   "Brown",
+   "Yellow"
+  ],
+  "description": "Layered leaf shapes from Sinharaja.",
+  "history": "Created to celebrate the rainforest reserve.",
+  "uses": [
+   "Wall hangings",
+   "Shirts"
+  ],
+  "careTips": "Wash cold; avoid direct sun."
+ },
+ {
+  "id": 22,
+  "name": "Fort Lattice",
+  "region": "Galle",
+  "technique": "Hand Embroidery",
+  "colors": [
+   "White",
+   "Blue",
+   "Gold"
+  ],
+  "description": "Geometric lattice inspired by Galle Fort windows.",
+  "history": "Colonial era architecture inspired this motif.",
+  "uses": [
+   "Table linen",
+   "Scarves"
+  ],
+  "careTips": "Hand wash gently."
+ },
+ {
+  "id": 23,
+  "name": "Hill Country Plaid",
+  "region": "Badulla",
+  "technique": "Handloom",
+  "colors": [
+   "Red",
+   "Black",
+   "Green"
+  ],
+  "description": "Warm wool-cotton plaid for cool nights.",
+  "history": "Weaving spread with estate communities.",
+  "uses": [
+   "Shawls",
+   "Blankets"
+  ],
+  "careTips": "Dry clean or cool hand wash."
+ },
+ {
+  "id": 24,
+  "name": "Ella Gap Wave",
+  "region": "Badulla",
+  "technique": "Batik",
+  "colors": [
+   "Blue",
+   "Purple",
+   "White"
+  ],
+  "description": "Flowing bands echo the Ella mountain gap.",
+  "history": "A tourism-era design from the 2000s.",
+  "uses": [
+   "Scarves",
+   "Sarongs"
+  ],
+  "careTips": "Wash separately in cold water."
+ },
+ {
+  "id": 25,
+  "name": "Trinco Shell",
+  "region": "Trincomalee",
+  "technique": "Block Print",
+  "colors": [
+   "Pink",
+   "White",
+   "Brown"
+  ],
+  "description": "Seashell shapes stamped across the cloth.",
+  "history": "Reflects Trincomalee's seaside.",
+  "uses": [
+   "Beachwear",
+   "Tote bags"
+  ],
+  "careTips": "Machine wash cold."
+ }
+]
