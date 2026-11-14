@@ -1,20 +1,51 @@
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { Ionicons } from '@expo/vector-icons';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { FavProvider } from './utils/FavContext';
+import { C } from './utils/theme';
+import HomeScreen from './screens/HomeScreen';
+import PatternListScreen from './screens/PatternListScreen';
+import PatternDetailScreen from './screens/PatternDetailScreen';
+import FavouritesScreen from './screens/FavouritesScreen';
+import TechniquesScreen from './screens/TechniquesScreen';
+import AboutScreen from './screens/AboutScreen';
 
-export default function App() {
+const Stack = createNativeStackNavigator();
+const Tab = createBottomTabNavigator();
+const icons = { Home: 'home', Patterns: 'grid', Favourites: 'heart', Techniques: 'color-palette', About: 'information-circle' };
+
+function Tabs() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Tab.Navigator
+      screenOptions={({ route }) => ({
+        tabBarIcon: ({ color, size }) => <Ionicons name={icons[route.name]} size={size} color={color} />,
+        tabBarActiveTintColor: C.indigo,
+        headerStyle: { backgroundColor: C.indigo },
+        headerTintColor: '#fff',
+      })}>
+      <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="Patterns" component={PatternListScreen} />
+      <Tab.Screen name="Favourites" component={FavouritesScreen} />
+      <Tab.Screen name="Techniques" component={TechniquesScreen} />
+      <Tab.Screen name="About" component={AboutScreen} />
+    </Tab.Navigator>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default function App() {
+  return (
+    <FavProvider>
+      <NavigationContainer>
+        <StatusBar style="light" />
+        <Stack.Navigator>
+          <Stack.Screen name="Tabs" component={Tabs} options={{ headerShown: false }} />
+          <Stack.Screen name="Detail" component={PatternDetailScreen}
+            options={{ title: 'Pattern details', headerStyle: { backgroundColor: C.indigo }, headerTintColor: '#fff' }} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </FavProvider>
+  );
+}
