@@ -12,3 +12,8 @@ Copy `App.js`, `data/`, `screens/`, `components/`, `utils/` from this project ov
 
 ## Screens
 Home, Patterns (search, region and technique filters, sort), Pattern Details, Favourites, Techniques, About.
+
+## Screenshots
+![Home](screenshots/Home.jpeg)
+![Patterns](screenshots/patterns.jpeg)
+![Details](screenshots/details.jpeg)
